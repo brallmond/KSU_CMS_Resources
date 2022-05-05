@@ -1,0 +1,21 @@
+HiggsToTauTau.pdf is a recent paper detailing a Higgs to Tau Tau analysis. This is the main analysis we're involved in
+at KSU, so this is a great paper to be familiar with.
+
+HiggsToInvisible.pdf is a recent paper detailing a Higgs decay into neutrinos (i.e. invisible particles). This is of
+general interest since neutrinos aren't detected directly at CMS.
+
+EmbeddedLeptons.pdf is the paper describing the process of replacing muons in Z->mu mu decays with taus (i.e.
+embedding the taus). The paper has a thorough analysis of the technique and is often cited in analyses using this
+embedding technique. 
+
+CERNBrochure2017.pdf is material you would receive on a tour of the LHC. It's packed with general information, and even
+if you know it all already, you can probably learn how to communicate it a bit more clearly by reading this
+(https://home.cern/resources/brochure/cern/lhc-guide).
+
+HiggsBoson.pdf is the ATLAS paper where they announce the discovery of the Higgs Boson. Read it if you're sentimental!
+
+Luminosity.pdf a primer on Luminosity. Probably more information in here than you need, but the first 5 or 6 pages are
+good background knowledge.
+
+MCNumbering.pdf describes what particles get what particle IDs in MonteCarlo samples (you'd be surprised how difficult
+this is to find via google).

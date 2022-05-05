@@ -1,0 +1,22 @@
+ProductionDiagrams.png shows the 4 diagrams of Higgs production sutdied at the LHC
+(http://opendata.atlas.cern/release/2020/documentation/physics/the-higgs-boson.html)
+
+higgsBranching.png shows the branching ratio of the Higgs for different production modes as a function of the Higgs
+mass. Remember, Higgs = 125 GeV in the SM, so you only need to look at the values intercepting that (imaginary) vertical
+line.
+
+higgsDecay.png shows the actual values for a 125 GeV SM Higgs (i.e. the values you would pick out by eye looking at
+higgsBranching.png where Higgs mass = 125 GeV). It is very useful to know these values offhand, especially that the Higgs
+decays to two taus 6% of the time.
+
+L1_HLT_timing_data_reduction.png illustrates the tiered data-collection system of CMS. Proton bunches collide every 25
+ns. Taking 1/25ns, you find 40MHz, or 40,000,000 Hz of input. The L1 trigger system reduces this to 100kHz and the HLT
+system reduces this to 1kHz, which is then saved to tape.  
+
+CMSslice.png shows the different parts of the Compact Muon Solenoid in a cross-section. You'll see this often in
+public presentations. 
+
+Hadronization.png shows two gluons and two b-quarks "hadronizing" or turning into hadrons, which is a colorless
+collection of quarks (which further decays). This image helps explain the phrase "quarks hadronize and produce jets")
+
+Rapidity.png shows a diagram of how rapidity (eta) is defined graphically. 
