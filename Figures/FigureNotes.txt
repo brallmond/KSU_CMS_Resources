@@ -17,6 +17,10 @@ CMSslice.png shows the different parts of the Compact Muon Solenoid in a cross-s
 public presentations. 
 
 Hadronization.png shows two gluons and two b-quarks "hadronizing" or turning into hadrons, which is a colorless
-collection of quarks (which further decays). This image helps explain the phrase "quarks hadronize and produce jets")
+collection of quarks (which further decays). This image helps explain the phrase "quarks hadronize and produce jets."
+
+JetOfHadronsVsHadronicTauCone.jpeg shows two cones, one made with hadrons in a broad cone and termed a "jet" another
+made with specific hadrons in a narrow cone termed a "hadronic tau," as a tau which decayed via a hadronic channel.
+This image also helps explain the phrase "quarks hadronize and produce jets."
 
 Rapidity.png shows a diagram of how rapidity (eta) is defined graphically. 
