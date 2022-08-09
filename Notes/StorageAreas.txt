@@ -1,13 +1,15 @@
 Every user on lxplus has EOS space (use ls to show what you currently have there)
 ls /eos/user/[first initial]/[username] #example below
 ls /eos/user/b/ballmond
+Additionally, use
+fs lq -human
 
 The default space on lxplus is /afs/ (i.e. the space you log into, just pwd and you'll see something like the following)
 /afs/cern.ch/user/b/ballmond/
 
 On cmslpc, there's also EOS space, but you have to use commands prepended with 'eos' to access it
 For example
-eosls /eos/store/[username]
+eosls /store/user/[username]
 lists all the directories you have on cmslpc EOS space
 More helpful commands for eos@cmslpc are here
 https://uscms.org/uscms_at_work/computing/LPC/usingEOSAtLPC.shtml#checkEOS
@@ -18,8 +20,8 @@ ll -h
 "ll" is "long-list" and "h" is "human readable filesize"
 Use this command to list the sizes of directories recursively, started from the directory you call the command.
 du -h
-I only use the last line of this command, which tells you how much the current directory 
-(including all of its contents) takes up.
+or just list the last line, which is the size of the current directory including all subdirectories
+du -h | tail -n 1
 
 on eos@cmslpc, use the command
 eosquota
