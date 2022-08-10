@@ -1,0 +1,13 @@
+using terminal, make a list of runs belonging to a dataset and place them in a file
+
+dasgoclient --query 'run dataset=/SingleMuon/Run2022C-v1/RAW' > RunsInSingleMuon2022CRaw.list
+
+for each line of that file (a run number), run another dasgoclient query
+it asks for the files in the dataset belonging to that run on a site that's available for user reading
+these files are written to an output file
+
+for line in `cat RunsInSingleMuon2022CRaw.list`; do dasgoclient --query "file dataset=/SingleMuon/Run2022C-v1/RAW run in [$line] site=T0_CH_CERN_Disk" > Run${line}.txt; echo "run $line done"; done
+
+count the number of lines in each output file
+0 means there are no files from that run available at that site
+wc -l Run??????.txt
