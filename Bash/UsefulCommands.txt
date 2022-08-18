@@ -1,0 +1,11 @@
+Some useful or cool bash commands that I use
+
+>> find /source/directory -maxdepth 1 -mtime <time> -type f -exec mv "{}" /destination/directory \;
+
+This allows you to perform an action on all files fulfilling a certain time requirement. The action here is `mv`, but could just as easily be any other bash command (rm might be usefull). The -mtime option takes values in days, with a prefixed "+x" meaning "older than x days" and "-x" meaning "younger than x days". The -type option allows you to specify the type of object, here this only operates on file, but this could be changed to "d" for directories, for instance.
+
+>> du -sh /directory/
+
+Gives the size of files in a directory in human readable format. The wildcat character "*" can be used to show the size of files in the current directory
+
+

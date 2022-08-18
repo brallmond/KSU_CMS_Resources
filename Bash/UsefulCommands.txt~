@@ -1,0 +1,2 @@
+Some useful or cool bash commands that I use 
+>> find /source/directory -maxdepth 1 -mtime <time> -type f -exec mv "{}" /destination/directory \;
