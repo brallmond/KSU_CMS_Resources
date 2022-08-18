@@ -22,6 +22,15 @@ Use this command to list the sizes of directories recursively, started from the 
 du -h
 or just list the last line, which is the size of the current directory including all subdirectories
 du -h | tail -n 1
+actually, that's equivalent to 
+du --summarize
+help pages are wonderful things
+if you want just the sizes of the directories you're calling the command from, do
+[ballmond@lxplus7116 public]$ du -h -d1
+350M	./CMSSW_12_4_3
+7.1G	./CMSSW_12_4_0
+1002M	./WorkingDQMCMSSW_12_4_0
+8.5G	.
 
 on eos@cmslpc, use the command
 eosquota
