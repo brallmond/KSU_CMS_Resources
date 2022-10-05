@@ -1,0 +1,37 @@
+Braden's limited git wisdom
+
+There are only 5 commands I need regularly
+
+git clone <link>
+put this at the top of your READMEs in repos, you will thank yourself
+
+git add <file> <file> <file>
+this adds files to be staged. You can add files to a .gitignore so that
+git ignores them and doesn't prompt you to add them
+
+git commit -m "your message here"
+this lets you write a short message of the change you want to make
+
+git push
+this lets you push your commits
+
+git pull
+this lets you pull changes from a repo
+
+About commits/changes, try to only make one functional change at a time and commit that.
+This makes you commit often, and it makes you think about your code in manageable steps.
+This also lets you peel back changes and keeps code unentangled.
+Always make whitespace changes or file migrations a seperate commit from actual 
+code functionality changes. 
+
+Here's something I had to do once that took me forever to figure out
+
+Pull someone else's copy of a repo with changes that aren't included in the repo
+git remote add fork-with-changes https://github.com/link/to/user/branch
+git fetch fork-with-changes
+git pull fork-with-changes branch-with-changes
+there will likely be some errors due to fast-forwarding/out-of-syncness, just pick whatever suggested option merges the branches instead of rebasing (or rebase it, idk what the difference is)
+
+To get gitlab at lxplus, i had to do this ssh thing that is mentioned nowhere in their docs
+ssh git@gitlab.cern.ch -T -p 7999
+

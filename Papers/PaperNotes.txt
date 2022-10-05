@@ -22,3 +22,6 @@ this is to find via google).
 
 AnomalousCoupling.pdf describes what anomalous coupling is. The first 3 sections are very descriptive, although the amplitude 
 is daunting without having taken QFT.
+
+ImportantHiggsPaperCMS.pdf was published in Nature in 2022 on the 10 year anniversary of the Higgs discovery. It's a great 
+overview of the current field and what we will be interested to study in Run 3. 

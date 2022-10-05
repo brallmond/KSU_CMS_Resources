@@ -29,3 +29,6 @@ Rapidity.png shows a diagram of how rapidity (eta) is defined graphically.
 STXSGraph.png shows the Simplified Template Cross-Section control flow of an event via its kinematic information
 
 TableOfHiggsResultsJune2022.png shows if ATLAS or CMS has published in a production/decay mode combination
+
+OldTrackerSlider.png shows a picture and description of the CMS tracker. The important thing is its coverage stops at
+eta=2.5

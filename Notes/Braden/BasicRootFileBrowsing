@@ -1,0 +1,68 @@
+IF you already have a root file with a tree in it, you can do this.
+
+root -l Mid_events.root 
+root [0] 
+Attaching file Mid_events.root as _file0...
+(TFile *) 0x5620db0750a0
+root [1] .ls
+TFile**		Mid_events.root	
+ TFile*		Mid_events.root	
+  KEY: TTree	LHEF;1	Analysis tree
+root [2] LHEF->MakeClass("test")
+
+which generates two files and this output
+
+Info in <TTreePlayer::MakeClass>: Files: test.h and test.C generated from TTree: LHEF
+(int) 0
+root [3] .q 
+#quits root
+
+(handle) ls
+Mid_events.root test.C  test.h 
+
+Inside test.C there are instructions how to use it! Namely
+root -l
+.L test.C
+test t
+t.Loop()
+
+root -l loads root
+.L test.C loads the macro test.C, which is connected to the test.h header which declares the "test" object class
+test t declares an object "t" of class "test" possessing various functions and, more importantly, branch names
+t.Loop() runs the "Loop" function of the "t" object. This function is defined in test.C, where it can be edited
+
+Here's a simple function to make a pT graph for a photon in an LHE root file
+
+void test::Loop()
+{
+  if (fChain == 0) return;
+
+  Long64_t nentries = fChain->GetEntriesFast();
+  TH1F* h = new TH1F("h", "", 100, 0, 200);
+
+  Long64_t nbytes = 0, nb = 0;
+  for (Long64_t jentry=0; jentry < nentries; ++jentry) {
+    Long64_t ientry = LoadTree(jentry);
+    if (ientry < 0) break;
+    nb = fChain->GetEntry(jentry);   nbytes += nb;
+
+    //cout << Particle_ << endl;
+    //cout << "i" << '\t' << "PID" << '\t' \
+    //     << "Stat" << '\t' << "Mom" << '\t' << "PT" << endl;
+    for (int i = 0; i < Particle_; ++i) {
+    //  cout << i << '\t' << \
+    //  Particle_PID[i] << '\t' << \
+    //  Particle_Status[i] << '\t' << \
+    //  Particle_Mother1[i] << '\t' << \
+    //  Particle_PT[i] << endl;
+
+      if (Particle_PID[i] == 22) {
+        if (Particle_Mother1[i] == 2)
+        h->Fill(Particle_PT[i]);
+      }
+    }
+    cout << endl << endl;
+  }
+  h->Draw("E");
+}
+ 
