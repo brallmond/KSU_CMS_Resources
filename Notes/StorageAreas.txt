@@ -23,7 +23,7 @@ du -h
 or just list the last line, which is the size of the current directory including all subdirectories
 du -h | tail -n 1
 actually, that's equivalent to 
-du --summarize
+du --summarize -h
 help pages are wonderful things
 if you want just the sizes of the directories you're calling the command from, do
 [ballmond@lxplus7116 public]$ du -h -d1

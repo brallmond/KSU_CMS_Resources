@@ -35,3 +35,12 @@ there will likely be some errors due to fast-forwarding/out-of-syncness, just pi
 To get gitlab at lxplus, i had to do this ssh thing that is mentioned nowhere in their docs
 ssh git@gitlab.cern.ch -T -p 7999
 
+
+If you want to grab a specific branch of a large repo then
+# grab the branches
+git fetch origin 
+# visualize the branches
+git branch -r 
+# checkout the branch you want
+git checkout branch-i-want
+
