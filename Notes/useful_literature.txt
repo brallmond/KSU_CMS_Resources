@@ -1,0 +1,47 @@
+Herein are a list of links to interesting papers that should be publicly accessible!
+
+Cern Brochure - https://cds.cern.ch/record/2255762/files/CERN-Brochure-2017-002-Eng.pdf
+This is a great introduction to particle physics and all things LHC!
+
+MC Numbering Scheme (PDG IDs) - https://pdg.lbl.gov/2007/reviews/montecarlorpp.pdf
+This document lists the IDs of particles used in MC generators! It's invaluable if you
+ever generate your own sample or need to look at LHE files.
+
+################################################################################
+
+Possibly not publicly available, but great resources if you have a CERN account!
+
+Concept of Luminosity - https://cds.cern.ch/record/941318/files/p361.pdf
+The first 5 or 6 pages are great background info (the rest is over my head and not that relevant anyways)
+
+Trigger Overview CMS DAS Jan 2022 - https://indico.cern.ch/event/1088671/contributions/4576980/attachments/2330164/4045629/Trigger_ShortExercise_FNAL_2022.pdf
+The first 5 or 6 slides provide a great overview of important aspects of triggering at CMS
+
+Analyses
+
+A cool paper to read is the discovery papers for the Higgs from either CMS or ATLAS!
+I leave you to google them :) They should be in PRL B or somewhere else readily available.
+It's important to know your history!
+
+Nature Paper : Higgs CMS - https://www.nature.com/articles/s41586-022-04892-x
+The pdf should be freely available at this link. It's worth reading this paper because it's written to be
+extremely accessible, plus if you have relatives who are interested in your work, Nature is probably
+the best known STEM journal. The paper also provides a great overview of Run3 interests.
+
+Higgs to Tau Tau - https://arxiv.org/abs/2204.12957
+A very recent Higgs to Tau Tau paper! A must read if you're in the KSU group. If not,
+it's interesting in its own right because the HtoTauTau channel uses different methods than
+the Higgs to GammaGamma or Higgs to ZGamma channels. 
+
+Constraints on Anomalous Higgs Boson Couplings to Fermions and Bosons via Tau Tau Decays - https://arxiv.org/abs/2205.05120
+A recent KSU grad wrote his thesis on this topic. The first 5 or 6 pages are very descriptive and
+give you a flavor of BSM physics involving the Higgs. It's good to read just so you know what
+"anomalous coupling" even means.
+
+Embedding Technique for Tau Tau Backgrounds - https://arxiv.org/abs/1903.01216
+This technique is used by every Higgs to Tau Tau analysis, so it's good to be familiar with it.
+The paper focuses on Z to Tau Tau decays, which is a nice change of pace, and helps the reader understand
+how "background" data can be useful. 
+
+
+
