@@ -7,6 +7,10 @@ MC Numbering Scheme (PDG IDs) - https://pdg.lbl.gov/2007/reviews/montecarlorpp.p
 This document lists the IDs of particles used in MC generators! It's invaluable if you
 ever generate your own sample or need to look at LHE files.
 
+A World Without the Higgs - https://arxiv.org/pdf/0901.3958.pdf
+Other than being an interesting read in it's own right, this paper provides an excellent
+bite-sized description of the Higgs and how EW symmetry breaking works.
+
 ################################################################################
 
 Possibly not publicly available, but great resources if you have a CERN account!
