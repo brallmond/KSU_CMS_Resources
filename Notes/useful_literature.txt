@@ -11,6 +11,10 @@ A World Without the Higgs - https://arxiv.org/pdf/0901.3958.pdf
 Other than being an interesting read in it's own right, this paper provides an excellent
 bite-sized description of the Higgs and how EW symmetry breaking works.
 
+Cross Section and Luminosity - https://cds.cern.ch/record/2800578/files/Cross%20Section%20and%20Luminosity%20Physics%20Cheat%20Sheet.pdf
+Accurate and short. These are necessary topics to understand in particle physics, and it's great that they're written so
+shortly here :)
+
 ################################################################################
 
 Possibly not publicly available, but great resources if you have a CERN account!
